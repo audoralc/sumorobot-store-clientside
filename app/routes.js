@@ -64,6 +64,15 @@ export default function createRoutes() {
              .catch(errorLoading);
          },
        },
+        {
+         path: '/news',
+         name: 'news',
+         getComponent(nextState, comMod) {
+           import('containers/News')
+             .then(loadModule(comMod))
+             .catch(errorLoading);
+         },
+       },
      {
       path: '*',
       name: 'notfound',

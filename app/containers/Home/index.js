@@ -15,6 +15,7 @@ import Footer from 'components/Footer';
 const BodyContainer = glamorous.div({
   minHeight: '100%',
   flex: '1',
+  flexDirection: 'row',
 })
 
 export default class Home extends React.PureComponent {

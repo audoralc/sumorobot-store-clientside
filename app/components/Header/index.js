@@ -10,6 +10,7 @@ import glamorous from 'glamorous';
 
 const NavLink = glamorous.a({
   textDecoration: 'none',
+  margin: '5vw', 
   color: 'rgb(48,48,48)',
   fontSize: '1.5em',
   ':hover': {

@@ -26,7 +26,7 @@ injectGlobal`
   }
 
   h1, h2, h3 {
-    font-family: Rokkit, Garamond, Georgia, serif;
+    font-family: Kreon, Garamond, Georgia, serif;
   }
 
   p,

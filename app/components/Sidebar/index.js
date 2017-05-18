@@ -18,7 +18,7 @@ class Sidebar extends React.PureComponent {
 const sidebarRibbon = {
   width: '2vw',
   background: 'rgba(56,193,239,.5)',
-  marginTop: '-20vh', 
+  marginTop: '-20vh',
 }
 
     return (

@@ -15,8 +15,8 @@ import { Input, Button, Textarea } from 'rebass';
 
 const FormWrapper= glamorous.section({
   background: 'rgba(48,48,48,.8)',
-  width: '60vw',
-  padding: '1em',
+  width: '65vw',
+  padding: '1vw',
   margin: '5vw',
   textAlign: 'center',
 })

@@ -20,7 +20,7 @@ const bodyContainer={
     return (
       <div style={bodyContainer}>
         {this.props.children}
-        <Sidebar> </Sidebar>        
+        <Sidebar> </Sidebar>
       </div>
     );
   }

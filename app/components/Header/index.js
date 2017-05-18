@@ -33,8 +33,7 @@ class Header extends React.PureComponent {
       width: '100%',
       height: '5vh',
       padding: '1em 1em 0 1em',
-      maxWidth: '75vw',
-      borderRight: '2vw solid rgba(56,193,239,.5)',
+      maxWidth: '75vw',      
     }
 
     return (

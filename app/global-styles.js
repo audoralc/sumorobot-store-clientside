@@ -25,8 +25,8 @@ injectGlobal`
     min-width: 100%;
   }
 
-  h1, h2, h3, {
-    font-family: Rokkit, Garamond, Georgia, serif; 
+  h1, h2, h3 {
+    font-family: Rokkit, Garamond, Georgia, serif;
   }
 
   p,

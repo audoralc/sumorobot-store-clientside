@@ -8,7 +8,7 @@ import React from 'react';
 import glamorous from 'glamorous';
 
 const FooterRibbon = glamorous.div({
-  background: 'rgba(48,48,48,.8)',
+  background: 'rgb(109, 110, 114)',
   width: '100vw',
   marginLeft:'0',
   textAlign: 'center', 
@@ -29,9 +29,9 @@ const InfoRibbon = glamorous.p({
 
 const NavLink = glamorous.a({
   textDecoration: 'none',
-  color: 'rgb(247,191,58)',
+  color: 'rgb(254,138,63)',
   ':hover': {
-    color: '#d8d8d8'
+    color: '#bdbec0'
   }
 })
 
@@ -44,8 +44,9 @@ class Footer extends React.PureComponent {
           <SocialRibbon> </SocialRibbon>
           <NavRibbon>
             <NavLink href='/'> home. </NavLink>
-
-            <NavLink href=''>  </NavLink>
+            <NavLink href='/about'> about.  </NavLink>
+            <NavLink href='/news'> news. </NavLink>
+            <NavLink href='https://cloud.sumorobotleague.com/'> cloud. </NavLink>
           </NavRibbon>
 
             <InfoRibbon>

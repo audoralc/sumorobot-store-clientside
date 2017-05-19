@@ -10,18 +10,18 @@ import glamorous from 'glamorous';
 
 const NavLink = glamorous.a({
   textDecoration: 'none',
-  fontFamily: 'kreon',
+  fontFamily: 'Open Sans',
   color: 'rgb(48,48,48)',
   width: '80%',
   fontSize: '1.5em',
   padding: '0 .25em',
   ':hover': {
-    color: 'rgb(56,193,239)'
+    color: 'rgb(183, 1, 26)'
   }
 })
 
 const NavRibbon = glamorous.div({
-  background: 'rgba(210,105,8,.5)',
+  background: 'rgba(189, 190, 192, .5)',
   height: '3vh',
   width: '100vw',
 })

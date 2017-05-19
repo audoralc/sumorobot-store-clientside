@@ -14,7 +14,7 @@ import Footer from 'components/Footer';
 import { Input, Button, Textarea } from 'rebass';
 
 const FormWrapper= glamorous.section({
-  background: 'rgba(48,48,48,.8)',
+  background: 'rgba(109, 110, 114,.8)',
   width: '65vw',
   padding: '1vw',
   margin: '5vw',
@@ -22,14 +22,18 @@ const FormWrapper= glamorous.section({
 })
 
 const TextWrapper = glamorous.section({
-  textAlign: 'left',
-  color: 'rgb(3, 165, 219)',
+  textAlign: 'justify',
+  color: 'rgb(19, 77, 163)',
   padding: '1em',
-  fontSize: '1.25em',
-  marginLeft: '5vw',
-  marginBottom: '-5vh',
+  fontSize: '1.5em',
+  margin: '-5vh auto', 
+  
 })
 
+const HeaderWrapper = glamorous.div({  
+  backgroundImage: 'url(http://localhost:8000/img/sumoRobot2017-4.jpg)',
+  backgroundSize: 'cover', 
+})
 
 export default class ContactUs extends React.PureComponent {
   render() {
@@ -56,13 +60,17 @@ const legendStyle = {
   fontSize: '1.15em',
   padding: '5px',
   textAlign: 'left',
+  fontFamily: 'Open Sans', 
 }
 
 const headerStyle ={
   textAlign: 'center',
   fontWeight: '500',
-  fontSize: '2em',
-  marginTop: '5vh',
+  fontSize: '2.25em',
+  paddingTop: '18vh',
+  marginTop: '0',
+  height: '50vh',  
+  color: '#FAFAFA',
 }
 
 
@@ -76,8 +84,9 @@ const headerStyle ={
 
         <BodyContainer>
           <div>
-            <h2 style={headerStyle}> Have more questions? </h2>
-
+            <HeaderWrapper>
+             <h2 style={headerStyle}> Have more questions? </h2>
+            </HeaderWrapper> 
               <TextWrapper>
                 <p> Need more than 20 kits? </p>
                 <p> Need a 3D Printer?</p>
@@ -126,7 +135,7 @@ const headerStyle ={
                   <Textarea type="text" id="source"  style={inputStyle}/>
                 </fieldset>
 
-                <Button backgroundColor="rgb(210,105,8)" color="#FAFAFA"> Submit </Button>
+                <Button backgroundColor="rgba(235, 8, 39, .8)" color="#FAFAFA"> Submit </Button>
 
               </form>
             </FormWrapper>

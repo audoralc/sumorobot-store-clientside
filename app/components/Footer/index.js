@@ -25,6 +25,7 @@ const SocialRibbon = glamorous.ul({
 
 const InfoRibbon = glamorous.p({
   color: '#d8d8d8',
+  fontFamily: "Share Tech Mono", 
 })
 
 const NavLink = glamorous.a({
@@ -32,7 +33,9 @@ const NavLink = glamorous.a({
   color: 'rgb(254,138,63)',
   ':hover': {
     color: '#bdbec0'
-  }
+  },
+  fontFamily: "Share Tech Mono",
+  fontSize: '1.25em',  
 })
 
 class Footer extends React.PureComponent {

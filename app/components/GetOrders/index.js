@@ -25,7 +25,7 @@ class GetOrders extends React.PureComponent {
     return (
       <div>
     <Table>
-      <TableHeader>
+      <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
         <TableRow>
           <TableRowColumn> ID </TableRowColumn>
           <TableRowColumn> User </TableRowColumn>

@@ -13,7 +13,7 @@ state = {
   fixedFooter: false,
   stripedRows: true,
   showRowHover: true,
-  selectable: true,
+  selectable: false,
   multiSelectable: false,
   enableSelectAll: false,
   deselectOnClickaway: true,
@@ -25,7 +25,7 @@ state = {
     return (
       <div>
         <Table>
-          <TableHeader>
+          <TableHeader displaySelectAll={false} adjustForCheckbox={false}>
             <TableRow>
               <TableRowColumn> ID </TableRowColumn>
               <TableRowColumn> Category Name </TableRowColumn>
@@ -33,6 +33,7 @@ state = {
               <TableRowColumn> Updated </TableRowColumn>
             </TableRow>
           </TableHeader>
+
           <TableBody> </TableBody>
         </Table>
       </div>

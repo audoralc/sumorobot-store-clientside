@@ -26,13 +26,7 @@ export default class UserDashboard extends React.PureComponent {
             <div>
               <GetUsers> </GetUsers>
             </div>
-          </Tab>
-
-          <Tab label="Update User" style={tabStyle}>
-            <div>
-              <UpdateUser> </UpdateUser>
-            </div>
-          </Tab>
+          </Tab>         
         </Tabs>
       </div>
     );

@@ -7,7 +7,7 @@ injectGlobal`
     background-color: #fafafa;
     height: 100%;
     width: 100%;
-    margin: 0; 
+    margin: 0;
   }
 
   body {
@@ -18,7 +18,7 @@ injectGlobal`
   }
 
   body.fontLoaded {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Share Tech Mono', monospace;
   }
 
   #app {
@@ -28,8 +28,8 @@ injectGlobal`
   }
 
   h1, h2, h3 {
-    font-family: Merriweather, Garamond, Georgia, serif;
-    color: #900014;  
+    font-family:'Share Tech Mono', monospace;
+    color: #900014;
   }
 
   p,

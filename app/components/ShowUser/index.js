@@ -1,12 +1,12 @@
 /**
 *
-* ShowUsers
+* ShowUser
 *
 */
 
 import React from 'react';
 
-class ShowUsers extends React.PureComponent {
+class ShowUser extends React.PureComponent {
   render() {
     return (
       <div>
@@ -16,4 +16,4 @@ class ShowUsers extends React.PureComponent {
   }
 }
 
-export default ShowUsers;
+export default ShowUser;

@@ -1,13 +1,13 @@
 /**
 *
-* GetRoles
+* GetOrders
 *
 */
 
 import React from 'react';
 import { Table, TableBody, TableFooter, TableHeader, TableHeaderColumn, TableRow,TableRowColumn } from 'material-ui/Table';
 
-class GetRoles extends React.PureComponent {
+class GetOrders extends React.PureComponent {
   state = {
     fixedHeader: true,
     fixedFooter: false,
@@ -20,14 +20,20 @@ class GetRoles extends React.PureComponent {
     showCheckboxes: false,
     height: 'auto',
   };
+
   render() {
     return (
       <div>
-    <Table> 
+    <Table>
       <TableHeader>
         <TableRow>
           <TableRowColumn> ID </TableRowColumn>
-          <TableRowColumn> Role Name</TableRowColumn>
+          <TableRowColumn> User </TableRowColumn>
+          <TableRowColumn> Address </TableRowColumn>
+          <TableRowColumn> Product </TableRowColumn>
+          <TableRowColumn> Quantity </TableRowColumn>
+          <TableRowColumn> Cost</TableRowColumn>
+          <TableRowColumn> Comment </TableRowColumn>
           <TableRowColumn> Created </TableRowColumn>
           <TableRowColumn> Updated </TableRowColumn>
         </TableRow>
@@ -41,4 +47,4 @@ class GetRoles extends React.PureComponent {
   }
 }
 
-export default GetRoles;
+export default GetOrders;

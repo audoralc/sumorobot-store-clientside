@@ -10,7 +10,7 @@ import glamorous from 'glamorous';
 
 const NavLink = glamorous.a({
   textDecoration: 'none',
-  fontFamily: 'Open Sans',
+  fontFamily: 'Share Tech Mono',
   color: 'rgb(48,48,48)',
   width: '80%',
   fontSize: '1.5em',

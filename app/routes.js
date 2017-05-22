@@ -73,6 +73,54 @@ export default function createRoutes() {
              .catch(errorLoading);
          },
        },
+    {
+     path: '/categorydash',
+     name: 'Category Dashboard',
+     getComponent(nextState, comMod) {
+       import('containers/CategoryDashboard')
+         .then(loadModule(comMod))
+         .catch(errorLoading);
+     },
+   },
+
+   {
+    path: '/ordersdash',
+    name: 'Order Dashboard',
+    getComponent(nextState, comMod) {
+      import('containers/OrderDashboard')
+        .then(loadModule(comMod))
+        .catch(errorLoading);
+    },
+  },
+
+  {
+   path: '/productdash',
+   name: 'Product Dashboard',
+   getComponent(nextState, comMod) {
+     import('containers/ProductDashboard')
+       .then(loadModule(comMod))
+       .catch(errorLoading);
+   },
+ },
+
+ {
+  path: '/roledash',
+  name: 'Role Dashboard',
+  getComponent(nextState, comMod) {
+    import('containers/RoleDashboard')
+      .then(loadModule(comMod))
+      .catch(errorLoading);
+  },
+},
+{
+ path: '/userdash',
+ name: 'User Dashboard',
+ getComponent(nextState, comMod) {
+   import('containers/UserDashboard')
+     .then(loadModule(comMod))
+     .catch(errorLoading);
+ },
+},
      {
       path: '*',
       name: 'notfound',

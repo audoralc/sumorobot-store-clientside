@@ -9,9 +9,11 @@ import glamorous from 'glamorous';
 
 const FooterRibbon = glamorous.div({
   background: 'rgb(109, 110, 114)',
-  width: '100vw',
+
   marginLeft:'0',
-  textAlign: 'center', 
+  textAlign: 'center',
+  gridRow: '3 / 3 span', 
+  gridColumn: '1 / 2 span',  
 })
 
 const NavRibbon = glamorous.nav({

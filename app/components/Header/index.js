@@ -30,6 +30,8 @@ class Header extends React.PureComponent {
   render() {
 
     const navBlockStyle = {
+      gridRow: '1 / span', 
+      gridColumn: '1 / span 2', 
       width: '100%',
       height: '5vh',
       padding: '1em 1em 0 1em',
@@ -38,8 +40,8 @@ class Header extends React.PureComponent {
     }
 
     return (
-      <div>
-        <nav style={navBlockStyle}>
+      <div style={navBlockStyle}>
+        <nav>
           <NavLink href='/'> Home </NavLink>
           <NavLink href='/about'> About  </NavLink>
           <NavLink href='/products'> Products </NavLink>

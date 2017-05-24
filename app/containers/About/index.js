@@ -19,14 +19,31 @@ const pageGrid = {
       gridTemplateRows: '10% 85% 5%',       
     }
 
+const textBlock ={ 
+  margin: '4vh 4vw',
+}
+
+const imgStyle= {
+  width: '100%',
+}
+
     return (
       <div style={pageGrid}>
         <Helmet title="About" meta={[ { name: 'description', content: 'Description of About' }]}/>
         <Header> </Header>
-    
-
-        <BodyContainer>          
+        <BodyContainer>   
+           <div> 
+              <img src="http://localhost:8000/img/LCPWSSumoRobot-73.jpg" style={imgStyle} /> 
+           </div>       
+           <div style={textBlock}>
             <p> Sumo Robot League is a non-profit robotics curriculum and sports league operated by HACK Augusta. Students design and build robots to compete in fully autonomous sumo wrestling. Each match motivates kids to learn and understand the principles of S.T.E.M. (Science, Technology, Engineering and Math), preparing them for the future by fostering an interest in these critical disciplines and an understanding of how they are practiced.</p>
+              
+          <h2> OUR GOALS</h2>
+            <ol>
+              <li>Teach students about robots and programming.</li>
+              <li>To give marginalized students the same recognition for efforts in technology as that given to students in athletics.</li>
+              <li>Provide tools, educational opportunities for science and math teachers to incorporate this curriculum into their STEM standards and Career Pathway standards.</li>
+            </ol>  
 
             <h2> COMPETITION & CURRICULUM </h2>
             <p>Sumo Robot League is a scalable STEM education platform that offers an affordable competitive robotics curriculum for middle and high school students. Our program provides multiple hands on lessons that give students the opportunity to build electrical circuits, design and 3D print adaptive components, and code sensor-based autonomous response algorithms using the actual C++ programming language. In additiona, our kits are expandable to include exercises in mobile app development, machine learning, and the internet of things.  </p>
@@ -35,12 +52,12 @@ const pageGrid = {
             <h2> BENEFITS</h2>
             <p>Sumo Robot League is hands on, creative, outside-the-box, and self directed. We offer training, online resource libraries, and weekly virtual support for teachers and volunteers. Though our kits include all parts necessary for building a robot, we also include access to CAD and STL files so kids can design and 3D print their own custom robots. By merging sports, design, engineering, and programming fundamentals, Sumo Robot League helps kids find what motivates each of them to learn coding and STEM (Science, Technology, Engineering, Arts and Math).  </p>
 
-            <h2> OUR GOALS</h2>
-              <ol>
-                <li>Teach students about robots and programming.</li>
-                <li>To give marginalized students the same recognition for efforts in technology as that given to students in athletics.</li>
-                <li>Provide tools, educational opportunities for science and math teachers to incorporate this curriculum into their STEM standards and Career Pathway standards.</li>
-              </ol>          
+            <h2> SPONSORSHIP INFO </h2>
+            <p> If you're interested in becoming a sponsor, our package information can be found in the downloadable PDF below. Please contact us with any questions you might have.  </p>
+            <a href="http://www.sumorobotleague.com/s/Sponsorship-Packages-Sheet1.pdf"> <h3>Package information</h3> </a>
+           
+
+          </div>            
         </BodyContainer>
 
         <Sidebar></Sidebar>

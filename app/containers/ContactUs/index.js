@@ -15,7 +15,7 @@ import { Input, Button, Textarea } from 'rebass';
 
 const FormWrapper= glamorous.section({
   background: 'rgba(109, 110, 114,.8)',
-  width: '65vw',
+  width: '80%',
   padding: '1vw',
   margin: '5vw',
   textAlign: 'center',
@@ -26,7 +26,7 @@ const TextWrapper = glamorous.section({
   color: 'rgb(19, 77, 163)',
   padding: '1em',
   fontSize: '1.5em',
-  margin: '-5vh auto', 
+  margin: '-5vh 3vw', 
   
 })
 
@@ -66,7 +66,7 @@ const legendStyle = {
 const headerStyle ={
   textAlign: 'center',
   fontWeight: '500',
-  fontSize: '2.25em',
+  fontSize: '3em',
   paddingTop: '18vh',
   marginTop: '0',
   height: '50vh',  

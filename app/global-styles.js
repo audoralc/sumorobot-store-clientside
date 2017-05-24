@@ -32,9 +32,12 @@ injectGlobal`
     color: #900014;
   }
 
+  
+
   p,
   label {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    fontSize: 14px; 
     line-height: 1.5em;
   }
 `;

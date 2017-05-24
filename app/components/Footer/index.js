@@ -31,10 +31,10 @@ class Footer extends React.PureComponent {
   
   const footerWrapper = {
     background: 'rgb(109, 110, 114)',   
-    marginLeft:'0',
     textAlign: 'center',
     gridRow: '3 / 3', 
-    gridColumn: '1 / 2 span',     
+    gridColumn: '1 / 2 span', 
+    paddingTop: '1em',    
   }
     return (
       

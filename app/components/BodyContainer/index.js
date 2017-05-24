@@ -15,10 +15,8 @@ class BodyContainer extends React.PureComponent {
 
 const bodyContainer={
   gridRow: '2 / 2', 
-  gridColumn: '1 / 2', 
-  height: '90vh',   
-  background: 'blue', 
-  width: '200px', 
+  gridColumn: '1 / 1',   
+  width: '100%', 
 }
     return (
       <div style={bodyContainer}>

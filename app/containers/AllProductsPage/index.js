@@ -13,8 +13,15 @@ import Footer from 'components/Footer';
 
 export default class AllProductsPage extends React.PureComponent {
   render() {
+
+    const pageGrid = { 
+      display: 'grid',
+      gridTemplateColumns: '85% 15%',
+      gridTemplateRows: '10% 85% 5%',       
+    }
+
     return (
-      <div>
+      <div style={pageGrid}>
         <Helmet title="AllProductsPage" meta={[ { name: 'description', content: 'Description of AllProductsPage' }]}/>
         <Header> </Header>
        

@@ -13,21 +13,23 @@ import glamorous from 'glamorous';
 class Sidebar extends React.PureComponent {
   render() {
 
-const sidebarRibbon = {  
-  background: 'rgba(247,102,8,.5)',  
-  gridRow: '2 / 2', 
-  gridColumn: '2 / 1',
-  height: '90vh', 
-  width: '200px', 
+const sidebarBlock = {  
+  borderLeft: 'solid 2vw ',  
+  gridRow: '1/ span 2', 
+  gridColumn: '2 / 2', 
+  borderLeft: '2vh solid rgba(247,102,8,.5)',  
 }
 
 const logoStyle = { 
-  width: '50px', 
+  width: '80%',
+  margin: '10% 10%',  
 }
 
+
     return (
-      <div style={sidebarRibbon}>        
-          <img src="http://localhost:8000/img/sumomasklogo.png" alt="Sumo Robot League Logo" style={logoStyle}  />       
+      <div style={sidebarBlock}> 
+            
+          <img src="http://localhost:8000/img/sumomasklogo.png" alt="Sumo Robot League Logo" style={logoStyle}  />     
       </div>
     );
   }

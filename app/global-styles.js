@@ -7,10 +7,7 @@ injectGlobal`
     background-color: #fafafa;
     height: 100%;
     width: 100%;
-    margin: 0;
-    display: grid; 
-    grid-template-columns: 70vw 30vw; 
-    grid-template-rows: 5vh 90vh 5vh; 
+    margin: 0;     
   }
 
   body {

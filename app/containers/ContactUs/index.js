@@ -8,7 +8,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import glamorous from 'glamorous';
 import Header from 'components/Header';
-import Navigation from 'components/Navigation';
+import Sidebar from 'components/Sidebar';
 import BodyContainer from 'components/BodyContainer';
 import Footer from 'components/Footer';
 import { Input, Button, Textarea } from 'rebass';
@@ -74,13 +74,17 @@ const headerStyle ={
 }
 
 
-
+ const pageGrid = { 
+      display: 'grid',
+      gridTemplateColumns: '85% 15%',
+      gridTemplateRows: '10% 85% 5%',       
+    }
 
     return (
-      <div>
+      <div style={pageGrid}>
         <Helmet title="ContactUs" meta={[ { name: 'description', content: 'Description of ContactUs' }]}/>
         <Header> </Header>
-        <Navigation> </Navigation>
+        
 
         <BodyContainer>
           <div>
@@ -141,7 +145,7 @@ const headerStyle ={
             </FormWrapper>
           </div>
         </BodyContainer>
-
+        <Sidebar> </Sidebar>
         <Footer> </Footer>
       </div>
     );

@@ -7,28 +7,25 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Header from 'components/Header';
-import Navigation from 'components/Navigation';
+import Sidebar from 'components/Sidebar';
 import BodyContainer from 'components/BodyContainer';
 import Footer from 'components/Footer';
 
 export default class About extends React.PureComponent {
   render() {
-
-  const content = {
-    height: '100vh',
-    width: '65vw',
-    padding: '1vw',
-    margin: '5vw',
-  }
+const pageGrid = { 
+      display: 'grid',
+      gridTemplateColumns: '85% 15%',
+      gridTemplateRows: '10% 85% 5%',       
+    }
 
     return (
-      <div>
+      <div style={pageGrid}>
         <Helmet title="About" meta={[ { name: 'description', content: 'Description of About' }]}/>
         <Header> </Header>
-        <Navigation> </Navigation>
+    
 
-        <BodyContainer>
-          <div style={content}>
+        <BodyContainer>          
             <p> Sumo Robot League is a non-profit robotics curriculum and sports league operated by HACK Augusta. Students design and build robots to compete in fully autonomous sumo wrestling. Each match motivates kids to learn and understand the principles of S.T.E.M. (Science, Technology, Engineering and Math), preparing them for the future by fostering an interest in these critical disciplines and an understanding of how they are practiced.</p>
 
             <h2> COMPETITION & CURRICULUM </h2>
@@ -43,9 +40,10 @@ export default class About extends React.PureComponent {
                 <li>Teach students about robots and programming.</li>
                 <li>To give marginalized students the same recognition for efforts in technology as that given to students in athletics.</li>
                 <li>Provide tools, educational opportunities for science and math teachers to incorporate this curriculum into their STEM standards and Career Pathway standards.</li>
-              </ol>
-          </div>
+              </ol>          
         </BodyContainer>
+
+        <Sidebar></Sidebar>
 
         <Footer> </Footer>
       </div>

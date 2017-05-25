@@ -11,7 +11,7 @@ import Sidebar from 'components/Sidebar';
 import BodyContainer from 'components/BodyContainer';
 import Footer from 'components/Footer';
 import glamorous from 'glamorous'; 
-import Faqaccordion from 'components/Faqaccordion'; 
+import Faq from 'components/Faq'; 
 
 
 
@@ -101,7 +101,7 @@ const h3Style = {
 
               <section> 
               <h2 style={h2Style}> F.A.Q </h2>
-              <Faqaccordion></Faqaccordion>
+              <Faq></Faq>
               </section>
 
               <section>

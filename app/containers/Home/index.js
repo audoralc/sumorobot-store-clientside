@@ -80,11 +80,7 @@ const pageGrid = {
         margin: '1vh 10%',         
       }
  
-      const bodyBorder = {
-       borderLeft: '2vh solid rgba(247,102,8,.5)',
-       borderRight: '2vh solid rgba(247,102,8,.5)',
-       height: '100%',
-      }
+      
 
     return (
       <div style={pageGrid}>
@@ -93,7 +89,7 @@ const pageGrid = {
         <Header> </Header>      
 
         <BodyContainer> 
-          <div style={bodyBorder}>             
+          <div>             
           <img src="http://localhost:8000/img/largeTextLogo.png" style={logoStyle} />
           <img src="http://localhost:8000/img/LCPWSSumoRobot-92.jpg" style={picStyle} />
             

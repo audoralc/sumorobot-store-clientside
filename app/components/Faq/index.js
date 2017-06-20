@@ -32,7 +32,7 @@ class Faq extends React.PureComponent {
   
       <div style={accordionStyle}> 
  
-      <Collapsible trigger="For Students"> 
+      <Collapsible trigger="For Students +"> 
       <dl> 
         <dt style={qStyle}> Do I get to keep my own robot?</dt>
         <dd style={answerStyle}>Absolutely! Each and every student enrolled in an official Sumo Robot League course will receive their own robot kit. Once they’ve learned to build it, it’s yours to keep forever.</dd>
@@ -41,7 +41,7 @@ class Faq extends React.PureComponent {
       </dl>
       </Collapsible>
 
-       <Collapsible trigger="For Teachers"> 
+       <Collapsible trigger="For Teachers +"> 
       <dl> 
         <dt style={qStyle}>How much experience with robotics do I need to have to teach a class?</dt>
         <dd style={answerStyle}>While the ideal teacher has some experience, what really matters is passion and interest. Each teacher will be provided with one copy of the Sumo Robot League Teacher’s Handbook which will go in extreme detail on the topics covered in the course.</dd>
@@ -60,7 +60,7 @@ class Faq extends React.PureComponent {
       </dl>
       </Collapsible>
 
-       <Collapsible trigger="For Parents"> 
+       <Collapsible trigger="For Parents +"> 
       <dl> 
         <dt style={qStyle}>How can I get my child involved if there aren’t any programs at the school?</dt>
         <dd style={answerStyle}>This program relies on family advocates to help us get the curriculum added to your school. We would love to talk to your school’s administration to find out how to proceed. Please contact us (<a href="mailto:schools@sumorobotleague.com">schools@sumorobotleague.com</a>) and we’ll start the process.</dd>
@@ -77,7 +77,7 @@ class Faq extends React.PureComponent {
       </Collapsible>
 
     
-     <Collapsible trigger="For Competitors"> 
+     <Collapsible trigger="For Competitors +"> 
       <dl> 
         <dt style={qStyle}>Can I compete in sanctioned events without having attended a class?</dt>
         <dd style={answerStyle}>Absolutely. Our events are open to every competitor with a robot that meets the size and weight requirements. Please come and compete!</dd>
